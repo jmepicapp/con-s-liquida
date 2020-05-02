@@ -1,0 +1,108 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#home {
+    background-image: url("../../media/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+#logo {
+    width: 15%;
+    height: 15%;
+    margin-left: 20vh;
+    padding-top: 3vh;
+}
+
+.seccion {
+    padding-top: 7vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-bottom: 7vh;
+}
+
+.title {
+    margin-top: 2vh;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+#contacto {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white !important;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 575.98px) {
+    #contacto {
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    #logo {
+        width: 25%;
+        height: 25%;
+        margin-left: 5vh;
+        padding-top: 5vh;
+    }
+
+    #home {
+        background-image: url("../../media/img/background-small.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1000px;
+        background-position: 50% 50%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #mi-historia {
+        background-color: white;
+        color: black;
+    }
+
+    #logo {
+        width: 25%;
+        height: 25%;
+        margin-left: 5vh;
+        padding-top: 5vh;
+    }
+
+    #home {
+        background-image: url("../../media/img/background-small.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #mi-historia {
+        background-color: white;
+        color: black;
+        padding-left: 15%;
+    }
+
+    #contacto .row {
+        flex-wrap: nowrap;
+    }
+
+    #contacto {
+        padding-left: 20vh;
+    }
+}
