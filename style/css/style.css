@@ -38,6 +38,10 @@ a {
     color: white !important;
 }
 
+a:hover {
+    text-decoration: none !important;
+}
+
 #footer {
     background-color: black;
     color: white;
