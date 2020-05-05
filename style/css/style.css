@@ -42,6 +42,10 @@ a:hover {
     text-decoration: none !important;
 }
 
+a:active {
+    text-decoration: none !important;
+}
+
 #footer {
     background-color: black;
     color: white;
