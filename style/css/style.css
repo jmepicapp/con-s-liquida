@@ -11,8 +11,8 @@ body {
 }
 
 #logo {
-    width: 15%;
-    height: 15%;
+    width: 10%;
+    height: 10%;
     margin-left: 20vh;
     padding-top: 3vh;
 }
@@ -62,8 +62,8 @@ a:active {
 
 @media (max-width: 991.98px) {
     #logo {
-        width: 25%;
-        height: 25%;
+        width: 15%;
+        height: 15%;
         margin-left: 5vh;
         padding-top: 5vh;
     }
@@ -84,8 +84,8 @@ a:active {
     }
 
     #logo {
-        width: 25%;
-        height: 25%;
+        width: 15%;
+        height: 15%;
         margin-left: 5vh;
         padding-top: 5vh;
     }
