@@ -21,11 +21,34 @@
 </head>
 
 <body>
-  <div id="home">
-    <!-- <div class="header container">
-        <div class="row">
-          <div class="col-3">
-            <img id="logo" src="media/img/logo-negro.png" alt="logo-negro" />
+    <!-- Carrousel de las obras -->
+    <div class="header">
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Quisiera ser golondrina -->
+          <div class="carousel-item active">
+            <picture>
+              <img class="logo logo-golondrina" src="media/img/logo-negro.png" alt="logo-negro"/>
+              <source media="(max-width: 576px)" srcset="media/img/obras/vertical/golondrina.jpg" type="image/jpeg">
+              <img src="media/img/obras/golondrina.jpg" class="d-block w-100" alt="golondrina">
+            </picture>
+          </div>
+          <!-- Compañía -->
+          <div class="carousel-item">
+            <picture>
+              <img class="logo" src="media/img/logo-blanco.png" alt="logo-blanco"/>
+              <source media="(max-width: 576px)" srcset="media/img/obras/vertical/compania.jpg" type="image/jpeg">
+              <img src="media/img/obras/compania.jpg" class="d-block w-100" alt="compañía">
+            </picture>
+          </div>
+          <!-- Sabor a sal -->
+          <div class="carousel-item">
+            <picture>
+              <img class="logo" src="media/img/logo-blanco.png" alt="logo-blanco"/>
+              <source media="(max-width: 576px)" srcset="media/img/obras/vertical/sabor-a-sal.jpg" type="image/jpeg">
+              <img src="media/img/obras/sabor-a-sal.jpg" class="d-block w-100" alt="sabor a sal">
+            </picture>
           </div>
           <div class="menu col-3">
             <p><a href="#mi-historia">Mi historia</a></p>
