@@ -2,19 +2,16 @@ body {
     font-family: 'Montserrat', sans-serif !important;
 }
 
-#home {
-    background-image: url("../../media/img/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
+.carousel {
+    z-index: -1 !important;
 }
 
-#logo {
-    width: 15%;
-    height: 15%;
-    margin-left: 20vh;
+.logo {
+    height: 20%;
+    margin-left: 12vh;
+    margin-top: 2vh;
     padding-top: 3vh;
+    position: absolute;
 }
 
 .seccion {
@@ -42,6 +39,10 @@ a:hover {
     text-decoration: none !important;
 }
 
+a:active {
+    text-decoration: none !important;
+}
+
 #footer {
     background-color: black;
     color: white;
@@ -53,23 +54,21 @@ a:hover {
         display: inline-block;
         text-align: center;
     }
+
+
 }
 
-
-@media (max-width: 991.98px) {
-    #logo {
-        width: 25%;
-        height: 25%;
-        margin-left: 5vh;
-        padding-top: 5vh;
+@media (max-width: 575.98px) {
+    .logo {
+        display: none;
     }
 
-    #home {
-        background-image: url("../../media/img/background-small.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 1000px;
-        background-position: 50% 50%;
+    .logo-golondrina {
+        height: 15%;
+        margin-left: 5vh;
+        padding-top: 3vh;
+        position: absolute;
+        display: block !important;
     }
 }
 
@@ -79,19 +78,12 @@ a:hover {
         color: black;
     }
 
-    #logo {
-        width: 25%;
-        height: 25%;
-        margin-left: 5vh;
-        padding-top: 5vh;
-    }
-
-    #home {
-        background-image: url("../../media/img/background-small.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 100%;
+    .logo {
+        height: 20%;
+        margin-left: 12vh;
+        margin-top: 2vh;
+        padding-top: 3vh;
+        position: absolute;
     }
 }
 
